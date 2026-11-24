@@ -41,7 +41,8 @@ Each brand therefore posts every 2 days.
 - Site: winery.infosofttech.ca
 
 ## Images
-- 1080×1080 PNG, rendered from HTML with Playwright + /usr/bin/google-chrome (see tools/gen_template.py)
+- 1080×1080 PNG, rendered from HTML with Playwright + /usr/bin/google-chrome. Use tools/gen_illustrated.py as the base: text on the left, a large drawn SVG illustration of the brand's world on the right
+- Every image MUST show the platform's world: Tapline = beer glasses, kegs, hops, delivery; Winery Suite = wine bottle, glass, grapes, barrels, vineyard; Vetario = pets (dogs, cats), stethoscope, vet cross; Invall = invoices, signature, charts, coins; Ontexi = hard hat, crane, clock (clock in/out), bricks, tools. Vary the scene each time (new objects/arrangement), keep brand colours
 - Keep each brand's colours consistent; vary headline, layout and angle each time
 - No photos of real people, logos of other companies, or copyrighted images
 - Save to posts/YYYY-MM-DD/<brand>.png, push to main, then use
