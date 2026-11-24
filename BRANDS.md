@@ -24,9 +24,10 @@ Each brand therefore posts every 2 days.
 - Site: invall.ca
 
 ### Ontexi – English, Canada
-- All-in-one platform for Canadian construction businesses
+- All-in-one business management platform for Canadian construction businesses
+- Includes employee clock in / clock out (time tracking)
 - Site: canada.infosofttech.ca
-- No specific features or prices known – keep claims general
+- No other specific features or prices confirmed – beyond clock in/out, keep claims general ("everything you need to run your construction business")
 
 ### Tapline – English, Canada
 - All-in-one platform for brewery owners
