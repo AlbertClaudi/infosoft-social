@@ -30,7 +30,8 @@ Each brand therefore posts every 2 days.
 - No other specific features or prices confirmed – beyond clock in/out, keep claims general ("everything you need to run your construction business")
 
 ### Tapline – English, Canada
-- All-in-one platform for brewery owners
+- All-in-one business management platform for breweries in Canada
+- Manages everything from staff to production to deliveries
 - CA$29/month or CA$290/year
 - Site: tapline.ca
 
