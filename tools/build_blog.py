@@ -91,9 +91,10 @@ def build():
             r["/" + p["slug"]] = page(b, f"{p['title']} | {b['name']}", p["description"], url,
                                       f"<h1>{html.escape(p['title'])}</h1><div class='meta'>{p['date']} · {b['name']}</div>{p['body']}"
                                       f"<div class='cta'><a href='{b['site']}'>{b['cta']} →</a></div>", ld)
-        urls = [base + "/"] + [f"{base}/{p['slug']}" for p in posts]
-        r["/sitemap.xml"] = ('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-                             + "".join(f"<url><loc>{u}</loc></url>" for u in urls) + "</urlset>")
+        latest = str(posts[0]["date"]) if posts else ""
+        urls = [(base + "/", latest)] + [(f"{base}/{p['slug']}", str(p["date"])) for p in posts]
+        r["/sitemap.xml"] = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                             + "".join(f"<url><loc>{u}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>\n" for u, d in urls) + "</urlset>\n")
         r["/robots.txt"] = f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n"
         routes[b["host"]] = r
     os.makedirs(f"{ROOT}/build", exist_ok=True)
