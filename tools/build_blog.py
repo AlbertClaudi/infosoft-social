@@ -17,7 +17,7 @@ BRANDS = {
  "tapline": dict(host="blog.tapline.ca", name="Tapline", site="https://tapline.ca", lang="en",
                  bg="#1B1410", fg="#FBF3E4", accent="#F2A541", blog="Tapline Blog",
                  tagline="Running a Canadian brewery, made simpler", cta="Get started at tapline.ca", more="Read more"),
- "winery": dict(host="winery-blog.infosofttech.ca", name="Winery Suite", site="https://winery.infosofttech.ca", lang="en",
+ "winery": dict(host="blog.winery.infosofttech.ca", name="Winery Suite", site="https://winery.infosofttech.ca", lang="en",
                 bg="#3A0F1E", fg="#FBF1F3", accent="#E8B4C0", blog="Winery Suite Blog",
                 tagline="Ideas for running a modern winery", cta="Start your 90-day free trial", more="Read more"),
 }

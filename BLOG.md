@@ -8,7 +8,7 @@ One Cloudflare Worker, **infosoft-blog**, serves all five blogs. It reads `build
 | Invall | https://blog.invall.ca | Albanian | invall.ca |
 | Ontexi | https://blog.canada.infosofttech.ca | English | canada.infosofttech.ca |
 | Tapline | https://blog.tapline.ca | English | tapline.ca |
-| Winery Suite | https://winery-blog.infosofttech.ca | English | winery.infosofttech.ca |
+| Winery Suite | https://blog.winery.infosofttech.ca | English | winery.infosofttech.ca |
 
 ## Weekly routine (1 article per brand per week)
 1. Brand facts come only from BRANDS.md. Never invent features, prices, customers, statistics or claims.
