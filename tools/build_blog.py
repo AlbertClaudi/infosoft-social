@@ -11,7 +11,7 @@ BRANDS = {
  "invall": dict(host="blog.invall.ca", name="Invall", site="https://invall.ca", lang="sq",
                 bg="#F5F3EE", fg="#14213D", accent="#FCA311", blog="Blogu i Invall",
                 tagline="Fatura, oferta dhe menaxhimi i biznesit, thjesht", cta="Provo 14 ditë falas në invall.ca", more="Lexo më shumë"),
- "ontexi": dict(host="ontexi-blog.infosofttech.ca", name="Ontexi", site="https://canada.infosofttech.ca", lang="en",
+ "ontexi": dict(host="blog.canada.infosofttech.ca", name="Ontexi", site="https://canada.infosofttech.ca", lang="en",
                 bg="#1F2933", fg="#F7F7F2", accent="#FFC233", blog="Ontexi Blog",
                 tagline="Practical tips for Canadian construction businesses", cta="Visit canada.infosofttech.ca", more="Read more"),
  "tapline": dict(host="blog.tapline.ca", name="Tapline", site="https://tapline.ca", lang="en",

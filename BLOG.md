@@ -6,7 +6,7 @@ One Cloudflare Worker, **infosoft-blog**, serves all five blogs. It reads `build
 |---|---|---|---|
 | Vetario | https://blog.vetario.ca | Albanian | vetario.ca |
 | Invall | https://blog.invall.ca | Albanian | invall.ca |
-| Ontexi | https://ontexi-blog.infosofttech.ca | English | canada.infosofttech.ca |
+| Ontexi | https://blog.canada.infosofttech.ca | English | canada.infosofttech.ca |
 | Tapline | https://blog.tapline.ca | English | tapline.ca |
 | Winery Suite | https://winery-blog.infosofttech.ca | English | winery.infosofttech.ca |
 
