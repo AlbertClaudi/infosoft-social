@@ -83,109 +83,120 @@ ILLUS = {
 </svg>""",
 
 "vetario": """<svg viewBox="0 0 620 620" xmlns="http://www.w3.org/2000/svg">
-<!-- dog -->
-<g transform="translate(120,140)">
- <ellipse cx="60" cy="120" rx="55" ry="115" fill="#8D5B3A" transform="rotate(18 60 120)"/>
- <ellipse cx="320" cy="120" rx="55" ry="115" fill="#8D5B3A" transform="rotate(-18 320 120)"/>
- <ellipse cx="190" cy="200" rx="160" ry="170" fill="#D9A066"/>
- <ellipse cx="190" cy="290" rx="95" ry="75" fill="#F3DDBF"/>
- <circle cx="130" cy="180" r="20" fill="#1B1B1B"/><circle cx="250" cy="180" r="20" fill="#1B1B1B"/>
- <circle cx="137" cy="173" r="7" fill="#fff"/><circle cx="257" cy="173" r="7" fill="#fff"/>
- <ellipse cx="190" cy="252" rx="34" ry="24" fill="#1B1B1B"/>
- <path d="M190 276 L190 300 M190 300 q-28 22 -50 0 M190 300 q28 22 50 0" stroke="#1B1B1B" stroke-width="7" fill="none" stroke-linecap="round"/>
- <path d="M178 318 q12 30 24 0 z" fill="#E86F7E"/>
+<!-- clipboard / patient record -->
+<g transform="translate(330,70) rotate(6)">
+ <rect width="230" height="300" rx="20" fill="#F4F8F7"/>
+ <rect x="70" y="-18" width="90" height="40" rx="10" fill="#3DD6B5"/>
+ <circle cx="60" cy="80" r="26" fill="#3DD6B5" opacity=".35"/>
+ <g fill="#B8C7C4"><rect x="100" y="66" width="100" height="12" rx="6"/><rect x="100" y="88" width="70" height="10" rx="5"/>
+ <rect x="30" y="140" width="170" height="12" rx="6"/><rect x="30" y="170" width="170" height="12" rx="6"/><rect x="30" y="200" width="120" height="12" rx="6"/></g>
+ <path d="M30 255 L70 255 L85 230 L105 275 L120 245 L200 245" stroke="#E2445C" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<!-- stethoscope -->
-<g fill="none" stroke="#3DD6B5" stroke-width="14" stroke-linecap="round">
- <path d="M180 470 C180 560 300 590 330 520 C350 470 420 470 440 520"/>
+<!-- cat -->
+<g transform="translate(70,200)">
+ <path d="M40 150 L20 20 L120 95 Z" fill="#6B6F7A"/><path d="M300 150 L320 20 L220 95 Z" fill="#6B6F7A"/>
+ <path d="M50 120 L38 50 L100 98 Z" fill="#F2A9B6"/><path d="M290 120 L302 50 L240 98 Z" fill="#F2A9B6"/>
+ <ellipse cx="170" cy="210" rx="160" ry="140" fill="#8A8F9A"/>
+ <ellipse cx="170" cy="270" rx="80" ry="58" fill="#D9DCE1"/>
+ <ellipse cx="115" cy="190" rx="20" ry="26" fill="#C9E86B"/><ellipse cx="225" cy="190" rx="20" ry="26" fill="#C9E86B"/>
+ <ellipse cx="115" cy="192" rx="7" ry="20" fill="#1B1B1B"/><ellipse cx="225" cy="192" rx="7" ry="20" fill="#1B1B1B"/>
+ <path d="M158 242 L182 242 L170 256 Z" fill="#E86F7E"/>
+ <path d="M170 256 v12 M170 268 q-18 16 -34 2 M170 268 q18 16 34 2" stroke="#1B1B1B" stroke-width="5" fill="none" stroke-linecap="round"/>
+ <g stroke="#F4F8F7" stroke-width="4" stroke-linecap="round"><line x1="60" y1="250" x2="0" y2="240"/><line x1="60" y1="265" x2="5" y2="275"/><line x1="280" y1="250" x2="340" y2="240"/><line x1="280" y1="265" x2="335" y2="275"/></g>
 </g>
-<circle cx="440" cy="540" r="34" fill="#3DD6B5"/><circle cx="440" cy="540" r="16" fill="#0E2A2F"/>
-<!-- medical badge -->
-<g transform="translate(470,80)">
- <circle cx="60" cy="60" r="60" fill="#F4F8F7"/>
- <rect x="48" y="25" width="24" height="70" rx="5" fill="#E2445C"/><rect x="25" y="48" width="70" height="24" rx="5" fill="#E2445C"/>
+<!-- paw prints -->
+<g fill="#3DD6B5" opacity=".8">
+ <g transform="translate(420,470)"><ellipse cx="30" cy="40" rx="24" ry="20"/><circle cx="8" cy="12" r="9"/><circle cx="24" cy="2" r="9"/><circle cx="40" cy="2" r="9"/><circle cx="54" cy="14" r="9"/></g>
+ <g transform="translate(500,545) scale(.75)"><ellipse cx="30" cy="40" rx="24" ry="20"/><circle cx="8" cy="12" r="9"/><circle cx="24" cy="2" r="9"/><circle cx="40" cy="2" r="9"/><circle cx="54" cy="14" r="9"/></g>
 </g>
-
+<!-- vet cross badge -->
+<g transform="translate(40,60)">
+ <circle cx="55" cy="55" r="55" fill="#E2445C"/>
+ <rect x="44" y="22" width="22" height="66" rx="5" fill="#fff"/><rect x="22" y="44" width="66" height="22" rx="5" fill="#fff"/>
+</g>
 </svg>""",
 
 "invall": """<svg viewBox="0 0 620 620" xmlns="http://www.w3.org/2000/svg">
-<!-- back doc -->
-<g transform="translate(250,90) rotate(8)">
- <rect width="280" height="370" rx="20" fill="#E5DED0"/>
+<!-- bank building -->
+<g transform="translate(300,60)">
+ <path d="M0 90 L140 10 L280 90 Z" fill="#14213D"/>
+ <rect x="10" y="90" width="260" height="22" fill="#14213D"/>
+ <g fill="#E5DED0"><rect x="30" y="120" width="34" height="150"/><rect x="92" y="120" width="34" height="150"/><rect x="154" y="120" width="34" height="150"/><rect x="216" y="120" width="34" height="150"/></g>
+ <rect x="0" y="270" width="280" height="26" rx="4" fill="#14213D"/>
+ <circle cx="140" cy="58" r="16" fill="#FCA311"/>
 </g>
-<!-- invoice -->
-<g transform="translate(150,110) rotate(-4)">
- <rect width="300" height="400" rx="20" fill="#FFFFFF" stroke="#14213D" stroke-width="4"/>
- <rect x="30" y="30" width="120" height="22" rx="6" fill="#14213D"/>
- <rect x="200" y="30" width="70" height="22" rx="6" fill="#FCA311"/>
- <g fill="#C9CED8"><rect x="30" y="90" width="240" height="12" rx="6"/><rect x="30" y="120" width="180" height="12" rx="6"/>
- <rect x="30" y="170" width="240" height="12" rx="6"/><rect x="30" y="200" width="240" height="12" rx="6"/><rect x="30" y="230" width="240" height="12" rx="6"/></g>
- <line x1="30" y1="270" x2="270" y2="270" stroke="#14213D" stroke-width="3"/>
- <rect x="160" y="290" width="110" height="26" rx="6" fill="#14213D"/>
- <path d="M30 360 c20 -30 40 10 60 -10 s30 -20 50 0 s20 10 40 -5" stroke="#2A6FDB" stroke-width="5" fill="none" stroke-linecap="round"/>
+<!-- payment card -->
+<g transform="translate(60,250) rotate(-8)">
+ <rect width="330" height="200" rx="24" fill="#2A6FDB"/>
+ <rect x="0" y="40" width="330" height="40" fill="#14213D"/>
+ <rect x="30" y="110" width="56" height="42" rx="8" fill="#FCA311"/>
+ <g fill="#fff" opacity=".85"><rect x="110" y="120" width="60" height="12" rx="6"/><rect x="180" y="120" width="60" height="12" rx="6"/><rect x="30" y="168" width="140" height="10" rx="5"/></g>
 </g>
-<!-- check badge -->
-<g transform="translate(430,370)">
- <circle cx="60" cy="60" r="60" fill="#2BB673"/>
- <path d="M32 62 L52 82 L90 40" stroke="#fff" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- coin stack -->
+<g transform="translate(400,400)">
+ <g fill="#F0A800"><ellipse cx="80" cy="170" rx="80" ry="22"/><rect x="0" y="40" width="160" height="130"/></g>
+ <g fill="#FCA311"><ellipse cx="80" cy="40" rx="80" ry="22"/></g>
+ <g stroke="#14213D" stroke-width="3" opacity=".35"><line x1="0" y1="80" x2="160" y2="80"/><line x1="0" y1="120" x2="160" y2="120"/></g>
+ <text x="80" y="53" text-anchor="middle" font-family="Inter" font-weight="800" font-size="34" fill="#14213D">€</text>
 </g>
-<!-- bar chart -->
-<g transform="translate(60,470)">
- <rect x="0" y="0" width="230" height="130" rx="18" fill="#14213D"/>
- <rect x="30" y="70" width="30" height="40" rx="5" fill="#FCA311"/><rect x="80" y="45" width="30" height="65" rx="5" fill="#FCA311"/>
- <rect x="130" y="55" width="30" height="55" rx="5" fill="#FCA311"/><rect x="180" y="25" width="30" height="85" rx="5" fill="#FCA311"/>
+<!-- pie chart -->
+<g transform="translate(130,500)">
+ <circle cx="0" cy="0" r="85" fill="#14213D"/>
+ <path d="M0 0 L0 -85 A85 85 0 0 1 80 28 Z" fill="#FCA311"/>
+ <path d="M0 0 L80 28 A85 85 0 0 1 -30 80 Z" fill="#2BB673"/>
+ <circle cx="0" cy="0" r="34" fill="#F5F3EE"/>
 </g>
-<!-- euro coin -->
-<g transform="translate(470,160)"><circle cx="45" cy="45" r="45" fill="#FCA311"/>
-<text x="45" y="62" text-anchor="middle" font-family="Inter" font-weight="800" font-size="50" fill="#14213D">€</text></g>
 </svg>""",
 
 "ontexi": """<svg viewBox="0 0 620 620" xmlns="http://www.w3.org/2000/svg">
-<!-- crane -->
-<g transform="translate(0,70)"><g stroke="#FFC233" stroke-width="10" fill="none">
- <line x1="420" y1="40" x2="420" y2="600"/><line x1="460" y1="40" x2="460" y2="600"/>
- <path d="M420 80 L460 120 L420 160 L460 200 L420 240 L460 280 L420 320 L460 360 L420 400 L460 440 L420 480 L460 520 L420 560"/>
- <line x1="160" y1="40" x2="600" y2="40"/><line x1="160" y1="70" x2="600" y2="70"/>
- <path d="M200 40 L230 70 L260 40 L290 70 L320 40 L350 70 L380 40"/>
- <line x1="220" y1="70" x2="220" y2="190" stroke-width="5"/>
+<!-- brick wall -->
+<g fill="#C8553D">
+ <rect x="20" y="470" width="120" height="44" rx="4"/><rect x="146" y="470" width="120" height="44" rx="4"/><rect x="272" y="470" width="120" height="44" rx="4"/><rect x="398" y="470" width="120" height="44" rx="4"/>
+ <rect x="-40" y="520" width="120" height="44" rx="4"/><rect x="86" y="520" width="120" height="44" rx="4"/><rect x="212" y="520" width="120" height="44" rx="4"/><rect x="338" y="520" width="120" height="44" rx="4"/><rect x="464" y="520" width="120" height="44" rx="4"/>
+ <rect x="20" y="570" width="120" height="44" rx="4"/><rect x="146" y="570" width="120" height="44" rx="4"/><rect x="272" y="570" width="120" height="44" rx="4"/><rect x="398" y="570" width="120" height="44" rx="4"/>
 </g>
-<rect x="190" y="190" width="60" height="40" rx="4" fill="#FFC233"/></g>
-<!-- clock -->
-<g transform="translate(70,180)">
- <circle cx="110" cy="110" r="110" fill="#F7F7F2"/>
- <circle cx="110" cy="110" r="92" fill="none" stroke="#1F2933" stroke-width="6"/>
- <g fill="#1F2933"><rect x="106" y="28" width="8" height="18" rx="3"/><rect x="106" y="174" width="8" height="18" rx="3"/><rect x="28" y="106" width="18" height="8" rx="3"/><rect x="174" y="106" width="18" height="8" rx="3"/></g>
- <line x1="110" y1="110" x2="110" y2="55" stroke="#1F2933" stroke-width="9" stroke-linecap="round"/>
- <line x1="110" y1="110" x2="155" y2="130" stroke="#E2445C" stroke-width="7" stroke-linecap="round"/>
- <circle cx="110" cy="110" r="10" fill="#1F2933"/>
+<!-- big clock -->
+<g transform="translate(180,40)">
+ <circle cx="130" cy="130" r="130" fill="#F7F7F2"/>
+ <circle cx="130" cy="130" r="110" fill="none" stroke="#FFC233" stroke-width="10"/>
+ <g fill="#1F2933"><rect x="125" y="34" width="10" height="22" rx="3"/><rect x="125" y="204" width="10" height="22" rx="3"/><rect x="34" y="125" width="22" height="10" rx="3"/><rect x="204" y="125" width="22" height="10" rx="3"/></g>
+ <line x1="130" y1="130" x2="130" y2="66" stroke="#1F2933" stroke-width="10" stroke-linecap="round"/>
+ <line x1="130" y1="130" x2="180" y2="155" stroke="#E2445C" stroke-width="7" stroke-linecap="round"/>
+ <circle cx="130" cy="130" r="12" fill="#1F2933"/>
 </g>
-<!-- hard hat -->
-<g transform="translate(60,420)">
+<!-- hard hat on wall -->
+<g transform="translate(320,330) scale(.8)">
  <path d="M30 120 C30 40 90 0 160 0 C230 0 290 40 290 120 Z" fill="#FFC233"/>
  <rect x="0" y="115" width="330" height="34" rx="17" fill="#F0A800"/>
  <rect x="140" y="-6" width="40" height="126" rx="12" fill="#F0A800"/>
 </g>
-<!-- bricks -->
-<g transform="translate(330,520)" fill="#C8553D">
- <rect x="0" y="0" width="80" height="36" rx="4"/><rect x="86" y="0" width="80" height="36" rx="4"/>
- <rect x="-40" y="42" width="80" height="36" rx="4"/><rect x="46" y="42" width="80" height="36" rx="4"/><rect x="132" y="42" width="80" height="36" rx="4"/>
+<!-- hammer -->
+<g transform="translate(70,300) rotate(-30 80 80)">
+ <rect x="70" y="40" width="22" height="150" rx="8" fill="#8D5B3A"/>
+ <path d="M30 20 L130 20 L130 56 L30 56 Q10 38 30 20Z" fill="#9AA3AD"/>
+</g>
+<!-- traffic cone -->
+<g transform="translate(40,330)">
+ <path d="M55 0 L85 0 L120 130 L20 130 Z" fill="#FF7A1A"/>
+ <path d="M44 42 L96 42 L104 72 L36 72 Z" fill="#F7F7F2"/>
+ <rect x="0" y="126" width="140" height="16" rx="5" fill="#E2611A"/>
 </g>
 </svg>""",
 }
 
 POSTS = {
  "vetario": dict(bg="#0E2A2F",fg="#F4F8F7",accent="#3DD6B5",tagfg="#0E2A2F",name="Vetario",
-   tag="Për klinikat veterinare",
-   head="Më shumë kohë<br>për pacientët<br>me 4 këmbë.", h1size="66px",
-   items=["Kartela & historiku mjekësor","Terminet","Faturimi","Raportet"], url="vetario.ca"),
+   tag="Kosovë & Shqipëri",
+   head="Çdo pacient.<br>Çdo vizitë.<br>Në një vend.", h1size="66px",
+   items=["Historiku mjekësor","Klientët & kafshët","Terminet","Fatura & raporte"], url="vetario.ca"),
  "invall": dict(bg="#F5F3EE",fg="#14213D",accent="#FCA311",tagfg="#14213D",name="Invall",
    tag="14 ditë provë FALAS",
-   head="Faturat dhe<br>ofertat, gati<br>për nënshkrim.",
-   items=["Fatura & oferta me email","Nënshkrim online","Stoku, pagat & TVSH","Raporte"], url="invall.ca"),
+   head="Pagesat,<br>banka & pagat<br>nën kontroll.",
+   items=["Pagesa online","Banka & shpenzimet","Pagat & TVSH","Portali i klientit"], url="invall.ca"),
  "ontexi": dict(bg="#1F2933",fg="#F7F7F2",accent="#FFC233",tagfg="#1F2933",name="Ontexi",
    tag="For Canadian construction",
-   head="Your crew.<br>Your jobs.<br>One platform.",
-   items=["Clock in / clock out","All-in-one management","Made in Canada"], url="canada.infosofttech.ca"),
+   head="Clock in.<br>Clock out.<br>Get building.",
+   items=["Employee time tracking","Clock in / clock out","All-in-one management"], url="canada.infosofttech.ca"),
  "tapline": dict(bg="#1B1410",fg="#FBF3E4",accent="#F2A541",tagfg="#1B1410",name="Tapline",
    tag="For Canadian breweries",
    head="From brew<br>to delivery.<br>One platform.",
