@@ -5,7 +5,7 @@ slug: brewery-management-staff-production-deliveries
 lang: en
 brand: Tapline
 site: https://tapline.ca
-date: 2026-11-26
+date: 2026-11-25
 keywords: [brewery management software, craft brewery software Canada, brewery production tracking, brewery delivery management]
 ---
 

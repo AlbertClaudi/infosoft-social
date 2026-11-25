@@ -5,7 +5,7 @@ slug: winery-management-one-dashboard
 lang: en
 brand: Winery Suite
 site: https://winery.infosofttech.ca
-date: 2026-11-26
+date: 2026-11-25
 keywords: [winery management software, winery software Canada, all-in-one winery platform, BC winery, Okanagan winery]
 ---
 

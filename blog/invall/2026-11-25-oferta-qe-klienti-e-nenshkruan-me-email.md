@@ -5,7 +5,7 @@ slug: oferta-me-nenshkrim-online
 lang: sq
 brand: Invall
 site: https://invall.ca
-date: 2026-11-26
+date: 2026-11-25
 keywords: [ofertë, faturë, nënshkrim elektronik, program faturimi, TVSH, biznes Kosovë, biznes Shqipëri]
 ---
 

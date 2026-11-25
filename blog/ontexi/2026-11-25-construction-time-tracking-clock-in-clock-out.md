@@ -5,7 +5,7 @@ slug: construction-time-tracking-clock-in-clock-out
 lang: en
 brand: Ontexi
 site: https://canada.infosofttech.ca
-date: 2026-11-26
+date: 2026-11-25
 keywords: [construction time tracking, clock in clock out app, construction management software Canada, contractor timesheets]
 ---
 

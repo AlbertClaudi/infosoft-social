@@ -5,7 +5,7 @@ slug: kartela-elektronike-e-pacientit
 lang: sq
 brand: Vetario
 site: https://vetario.ca
-date: 2026-11-26
+date: 2026-11-25
 keywords: [klinikë veterinare, softuer veterinar, kartela e pacientit, historiku mjekësor, Kosovë, Shqipëri]
 ---
 
