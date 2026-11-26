@@ -11,7 +11,7 @@ Albert signs up (accounts and verification are his). Items marked "verify" must 
 | LinkedIn company page | Infosoft Technology, list all products with links |
 | Crunchbase | Company profile with product links |
 | Product Hunt | Launch each product separately (one per week) |
-| G2 (also shows on Capterra, GetApp, Software Advice) | DONE 2026-11-25: all 5 products submitted via g2.com/add_product_requests/new, waiting for approval |
+| G2 (also shows on Capterra, GetApp, Software Advice) | DONE 2026-11-25: all 5 products approved (G2, Capterra, GetApp, Software Advice). Next: complete profiles, ask real customers for reviews |
 | SaaSHub, AlternativeTo | Free product listings |
 | Instagram bio (@infosoftechnology) | Link-in-bio page with all 5 sites |
 
