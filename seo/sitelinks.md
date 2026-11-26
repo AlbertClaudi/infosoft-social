@@ -38,7 +38,7 @@ List home, main pages and every blog post (`/blog/<slug>`), with `<lastmod>`.
 }
 </script>
 ```
-Add `offers` only where the price is confirmed in BRANDS.md (Tapline CA$29/mo, Winery Suite CA$30/mo).
+Add `offers` only where the price is confirmed in BRANDS.md (TapLine CA$29/mo, Winery Suite CA$30/mo).
 
 Blog posts: `BlogPosting` + `BreadcrumbList` (Home > Blog > Post).
 

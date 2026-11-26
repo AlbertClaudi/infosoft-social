@@ -3,7 +3,7 @@ title: "Brewery Management Software: Bringing Staff, Production and Deliveries I
 description: "Canadian brewery owners juggle staff schedules, brewing and deliveries across too many tools. Here is why one platform makes the day easier."
 slug: brewery-management-staff-production-deliveries
 lang: en
-brand: Tapline
+brand: TapLine
 site: https://tapline.ca
 date: 2026-11-25
 keywords: [brewery management software, craft brewery software Canada, brewery production tracking, brewery delivery management]
@@ -38,9 +38,9 @@ Which orders are going out, where, and when. A missed delivery is a missed sale 
 3. Enter this week's deliveries.
 4. Run the week from the platform and see what you no longer need on paper.
 
-## Tapline: all-in-one platform for Canadian breweries
+## TapLine: all-in-one platform for Canadian breweries
 
-**Tapline** is the all-in-one business management platform for breweries in Canada. It manages everything from staff to production to deliveries.
+**TapLine** is the all-in-one business management platform for breweries in Canada. It manages everything from staff to production to deliveries.
 
 **CA$29/month or CA$290/year.**
 

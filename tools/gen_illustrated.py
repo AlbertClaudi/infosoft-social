@@ -197,7 +197,7 @@ POSTS = {
    tag="For Canadian construction",
    head="Clock in.<br>Clock out.<br>Get building.",
    items=["Employee time tracking","Clock in / clock out","All-in-one management"], url="canada.infosofttech.ca"),
- "tapline": dict(bg="#1B1410",fg="#FBF3E4",accent="#F2A541",tagfg="#1B1410",name="Tapline",
+ "tapline": dict(bg="#1B1410",fg="#FBF3E4",accent="#F2A541",tagfg="#1B1410",name="TapLine",
    tag="For Canadian breweries",
    head="From brew<br>to delivery.<br>One platform.",
    items=["Staff","Production","Deliveries","CA$29/mo · CA$290/yr"], url="tapline.ca"),

@@ -38,7 +38,7 @@ posts = {
    head="Faturat, ofertat<br>dhe projektet.<br>Të gjitha në Invall.",
    items=["Fatura & oferta","Nënshkrim me email","Stoku & shpenzimet","Pagat & TVSH","Pagesa online","Raporte"],
    url="invall.ca",cta="Fillo falas →"),
- "tapline": dict(bg="#1B1410",fg="#FBF3E4",accent="#F2A541",tagfg="#1B1410",name="Tapline",
+ "tapline": dict(bg="#1B1410",fg="#FBF3E4",accent="#F2A541",tagfg="#1B1410",name="TapLine",
    tag="Built for brewery owners",
    head="Pour more beer.<br>Do less<br>admin.",
    items=["All-in-one platform","Made in Canada","CA$29 / month","or CA$290 / year"],

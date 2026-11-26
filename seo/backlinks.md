@@ -29,7 +29,7 @@ Albert signs up (accounts and verification are his). Items marked "verify" must 
 - Regional construction associations (e.g. in BC, Ontario): supplier/member directory (verify)
 - Capterra/G2 category: Construction Management, Time Tracking
 
-## Tapline (Canada, breweries)
+## TapLine (Canada, breweries)
 - Provincial craft brewers guilds (e.g. BC Craft Brewers Guild): supplier/associate member listing (verify)
 - Capterra/G2 category: Brewery Management
 
@@ -41,5 +41,5 @@ Albert signs up (accounts and verification are his). Items marked "verify" must 
 - **Vetario**: Platformë online për klinikat veterinare në Kosovë dhe Shqipëri: kartela dhe historiku mjekësor i pacientëve, klientët, terminet, faturimi dhe raportet. vetario.ca
 - **Invall**: Menaxhimi i biznesit në një vend: fatura dhe oferta me email, nënshkrim online, projekte, stok, shpenzime, pagesa, bankë, paga, TVSH, raporte dhe portal klienti. 14 ditë provë falas. invall.ca
 - **Ontexi**: All-in-one business management platform for Canadian construction businesses, including employee clock in / clock out. canada.infosofttech.ca
-- **Tapline**: All-in-one business management platform for Canadian breweries, from staff to production to deliveries. CA$29/month or CA$290/year. tapline.ca
+- **TapLine**: All-in-one business management platform for Canadian breweries, from staff to production to deliveries. CA$29/month or CA$290/year. tapline.ca
 - **Winery Suite**: All-in-one platform for wineries. 90-day free trial, then CA$30/month or CA$300/year. winery.infosofttech.ca
