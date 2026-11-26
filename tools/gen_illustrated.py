@@ -21,59 +21,84 @@ li:before{content:'';width:12px;height:12px;border-radius:50%%;background:%(acce
 
 ILLUS = {
 "tapline": """<svg viewBox="0 0 620 620" xmlns="http://www.w3.org/2000/svg">
-<!-- keg -->
-<g transform="translate(330,250)">
- <rect x="0" y="0" width="220" height="300" rx="26" fill="#9AA3AD"/>
- <rect x="0" y="40" width="220" height="16" fill="#6E7781"/><rect x="0" y="244" width="220" height="16" fill="#6E7781"/>
- <rect x="18" y="70" width="26" height="160" rx="13" fill="#C9D0D6" opacity=".7"/>
- <rect x="85" y="-22" width="50" height="26" rx="6" fill="#6E7781"/>
+<!-- tap tower -->
+<g transform="translate(400,40)">
+ <rect x="20" y="0" width="140" height="44" rx="12" fill="#9AA3AD"/>
+ <rect x="70" y="44" width="40" height="190" fill="#6E7781"/>
+ <g><rect x="34" y="60" width="18" height="70" rx="8" fill="#F2A541"/><rect x="38" y="128" width="10" height="34" fill="#C9D0D6"/></g>
+ <g><rect x="128" y="60" width="18" height="70" rx="8" fill="#7CB342"/><rect x="132" y="128" width="10" height="34" fill="#C9D0D6"/></g>
+ <rect x="0" y="230" width="180" height="20" rx="6" fill="#6E7781"/>
+ <rect x="40" y="162" width="6" height="70" fill="#F2A541" opacity=".9"/>
+</g>
+<!-- pint under tap -->
+<g transform="translate(395,290)">
+ <path d="M0 30 L110 30 L98 230 L12 230 Z" fill="#F2A541"/>
+ <ellipse cx="55" cy="30" rx="57" ry="12" fill="#FFF6E5"/>
+ <circle cx="18" cy="22" r="18" fill="#FFF6E5"/><circle cx="52" cy="12" r="22" fill="#FFF6E5"/><circle cx="88" cy="20" r="19" fill="#FFF6E5"/>
+ <circle cx="40" cy="140" r="5" fill="#FFE3B0"/><circle cx="70" cy="180" r="4" fill="#FFE3B0"/><circle cx="58" cy="100" r="5" fill="#FFE3B0"/>
+ <rect x="16" y="50" width="10" height="160" rx="5" fill="#fff" opacity=".25"/>
+</g>
+<!-- delivery van with kegs -->
+<g transform="translate(20,330)">
+ <rect x="0" y="40" width="250" height="150" rx="16" fill="#FBF3E4"/>
+ <path d="M250 80 L320 80 L360 130 L360 190 L250 190 Z" fill="#F2A541"/>
+ <path d="M262 92 L314 92 L342 128 L262 128 Z" fill="#1B1410" opacity=".55"/>
+ <g transform="translate(30,70)"><rect width="56" height="80" rx="10" fill="#9AA3AD"/><rect y="14" width="56" height="7" fill="#6E7781"/><rect y="58" width="56" height="7" fill="#6E7781"/></g>
+ <g transform="translate(100,70)"><rect width="56" height="80" rx="10" fill="#9AA3AD"/><rect y="14" width="56" height="7" fill="#6E7781"/><rect y="58" width="56" height="7" fill="#6E7781"/></g>
+ <g transform="translate(170,70)"><rect width="56" height="80" rx="10" fill="#9AA3AD"/><rect y="14" width="56" height="7" fill="#6E7781"/><rect y="58" width="56" height="7" fill="#6E7781"/></g>
+ <circle cx="70" cy="196" r="32" fill="#2A211B"/><circle cx="70" cy="196" r="13" fill="#9AA3AD"/>
+ <circle cx="295" cy="196" r="32" fill="#2A211B"/><circle cx="295" cy="196" r="13" fill="#9AA3AD"/>
+ <g stroke="#F2A541" stroke-width="7" stroke-linecap="round" opacity=".7"><line x1="-30" y1="80" x2="-70" y2="80"/><line x1="-20" y1="120" x2="-80" y2="120"/></g>
 </g>
 <!-- hops -->
-<g transform="translate(300,110)">
+<g transform="translate(90,70)">
  <path d="M60 0 C40 20 40 40 60 50 C80 40 80 20 60 0Z" fill="#7CB342"/>
  <path d="M60 30 C30 50 30 80 60 95 C90 80 90 50 60 30Z" fill="#8BC34A"/>
  <path d="M60 70 C35 90 35 120 60 135 C85 120 85 90 60 70Z" fill="#7CB342"/>
  <path d="M60 0 q20 -30 55 -25" stroke="#558B2F" stroke-width="6" fill="none"/>
  <path d="M115 -25 c25 -5 40 15 30 30 c-20 5 -35 -10 -30 -30z" fill="#689F38"/>
 </g>
-<!-- pint 1 -->
-<g transform="translate(70,250)">
- <path d="M0 40 L150 40 L132 330 L18 330 Z" fill="#F2A541"/>
- <path d="M0 40 L150 40 L146 100 L4 100 Z" fill="#E08E1B" opacity=".35"/>
- <ellipse cx="75" cy="40" rx="78" ry="16" fill="#FFF6E5"/>
- <circle cx="20" cy="30" r="26" fill="#FFF6E5"/><circle cx="60" cy="18" r="30" fill="#FFF6E5"/><circle cx="105" cy="22" r="28" fill="#FFF6E5"/><circle cx="138" cy="34" r="22" fill="#FFF6E5"/>
- <circle cx="50" cy="180" r="6" fill="#FFE3B0"/><circle cx="90" cy="230" r="5" fill="#FFE3B0"/><circle cx="70" cy="280" r="7" fill="#FFE3B0"/><circle cx="105" cy="150" r="4" fill="#FFE3B0"/>
- <rect x="22" y="70" width="14" height="230" rx="7" fill="#fff" opacity=".25"/>
-</g>
-<!-- pint 2 (dark) -->
-<g transform="translate(210,330)">
- <path d="M0 30 L120 30 L106 260 L14 260 Z" fill="#5B2C0E"/>
- <ellipse cx="60" cy="30" rx="62" ry="13" fill="#F3E2C4"/>
- <circle cx="18" cy="22" r="20" fill="#F3E2C4"/><circle cx="55" cy="12" r="24" fill="#F3E2C4"/><circle cx="95" cy="18" r="21" fill="#F3E2C4"/>
- <rect x="18" y="55" width="11" height="180" rx="6" fill="#fff" opacity=".18"/>
+<g transform="translate(230,130) scale(.6)">
+ <path d="M60 0 C40 20 40 40 60 50 C80 40 80 20 60 0Z" fill="#8BC34A"/>
+ <path d="M60 30 C30 50 30 80 60 95 C90 80 90 50 60 30Z" fill="#7CB342"/>
+ <path d="M60 70 C35 90 35 120 60 135 C85 120 85 90 60 70Z" fill="#8BC34A"/>
 </g>
 </svg>""",
 
 "winery": """<svg viewBox="0 0 620 620" xmlns="http://www.w3.org/2000/svg">
-<!-- bottle -->
-<g transform="translate(330,60)">
- <rect x="62" y="0" width="56" height="40" rx="6" fill="#B0254A"/>
- <path d="M66 40 L114 40 L114 150 C170 180 180 220 180 260 L180 520 Q180 540 160 540 L20 540 Q0 540 0 520 L0 260 C0 220 10 180 66 150 Z" fill="#1E5A3A"/>
- <rect x="20" y="300" width="140" height="150" rx="8" fill="#F6EBDD"/>
- <rect x="45" y="335" width="90" height="10" rx="5" fill="#7A1630"/><rect x="55" y="360" width="70" height="8" rx="4" fill="#7A1630" opacity=".6"/>
- <circle cx="90" cy="405" r="22" fill="none" stroke="#7A1630" stroke-width="5"/>
- <rect x="22" y="190" width="14" height="300" rx="7" fill="#fff" opacity=".18"/>
+<!-- sun + vineyard hills -->
+<circle cx="470" cy="110" r="70" fill="#E8B4C0" opacity=".85"/>
+<defs><clipPath id="hillclip"><circle cx="310" cy="330" r="270"/></clipPath></defs>
+<g clip-path="url(#hillclip)">
+<path d="M0 300 Q160 200 330 270 T620 240 L620 400 L0 400 Z" fill="#2F6B45"/>
+<path d="M0 340 Q200 270 400 320 T620 300 L620 420 L0 420 Z" fill="#1E5A3A"/>
+<g stroke="#7BA23F" stroke-width="6" stroke-linecap="round" opacity=".8">
+ <line x1="60" y1="300" x2="20" y2="380"/><line x1="140" y1="285" x2="120" y2="380"/><line x1="220" y1="285" x2="220" y2="380"/><line x1="300" y1="292" x2="320" y2="380"/><line x1="380" y1="300" x2="420" y2="380"/><line x1="460" y1="292" x2="520" y2="380"/>
+</g>
+</g>
+<!-- barrels -->
+<g transform="translate(40,390)">
+ <ellipse cx="110" cy="110" rx="110" ry="100" fill="#8D5B3A"/>
+ <ellipse cx="110" cy="110" rx="70" ry="64" fill="#A56B44"/>
+ <ellipse cx="110" cy="110" rx="30" ry="27" fill="#6B4228"/>
+ <g fill="none" stroke="#4A2E1C" stroke-width="8"><ellipse cx="110" cy="110" rx="100" ry="92"/></g>
+</g>
+<g transform="translate(250,410)">
+ <ellipse cx="100" cy="100" rx="100" ry="92" fill="#7A4E32"/>
+ <ellipse cx="100" cy="100" rx="62" ry="58" fill="#96603D"/>
+ <ellipse cx="100" cy="100" rx="26" ry="24" fill="#5E3A24"/>
+ <g fill="none" stroke="#4A2E1C" stroke-width="8"><ellipse cx="100" cy="100" rx="90" ry="84"/></g>
 </g>
 <!-- glass -->
-<g transform="translate(110,230)">
- <path d="M0 0 L170 0 C175 120 140 190 85 195 C30 190 -5 120 0 0Z" fill="#FFFFFF" opacity=".22"/>
- <path d="M6 70 L164 70 C160 150 130 188 85 192 C40 188 10 150 6 70Z" fill="#B0254A"/>
- <ellipse cx="85" cy="70" rx="79" ry="12" fill="#C93A61"/>
- <rect x="78" y="194" width="14" height="140" fill="#FFFFFF" opacity=".35"/>
- <ellipse cx="85" cy="340" rx="70" ry="14" fill="#FFFFFF" opacity=".35"/>
+<g transform="translate(450,300)">
+ <path d="M0 0 L120 0 C124 90 100 140 60 144 C20 140 -4 90 0 0Z" fill="#FFFFFF" opacity=".25"/>
+ <path d="M4 50 L116 50 C112 110 92 140 60 142 C28 140 8 110 4 50Z" fill="#B0254A"/>
+ <ellipse cx="60" cy="50" rx="56" ry="9" fill="#C93A61"/>
+ <rect x="54" y="144" width="12" height="120" fill="#FFFFFF" opacity=".4"/>
+ <ellipse cx="60" cy="268" rx="52" ry="11" fill="#FFFFFF" opacity=".4"/>
 </g>
-<!-- grapes -->
-<g transform="translate(150,70) scale(.85)">
+<!-- grape bunch -->
+<g transform="translate(60,70) scale(.75)">
  <path d="M95 -30 q10 -30 40 -30" stroke="#6B8E23" stroke-width="7" fill="none"/>
  <path d="M135 -60 c30 -10 55 10 45 35 c-25 8 -50 -10 -45 -35z" fill="#7BA23F"/>
  <g fill="#6A1B4D"><circle cx="60" cy="0" r="24"/><circle cx="105" cy="0" r="24"/><circle cx="150" cy="0" r="24"/>
@@ -198,13 +223,13 @@ POSTS = {
    head="Clock in.<br>Clock out.<br>Get building.",
    items=["Employee time tracking","Clock in / clock out","All-in-one management"], url="canada.infosofttech.ca"),
  "tapline": dict(bg="#1B1410",fg="#FBF3E4",accent="#F2A541",tagfg="#1B1410",name="TapLine",
-   tag="For Canadian breweries",
-   head="From brew<br>to delivery.<br>One platform.",
-   items=["Staff","Production","Deliveries","CA$29/mo · CA$290/yr"], url="tapline.ca"),
+   tag="CA$29/mo · CA$290/yr",
+   head="Pour more.<br>Juggle less.<br>One platform.",
+   items=["Staff in one place","Production on track","Deliveries organized","Built for breweries"], url="tapline.ca"),
  "winery": dict(bg="#3A0F1E",fg="#FBF1F3",accent="#E8B4C0",tagfg="#3A0F1E",name="Winery Suite",
-   tag="90-DAY FREE TRIAL",
-   head="Run your<br>winery from<br>one dashboard.",
-   items=["All-in-one suite","Made in Canada","CA$30/mo · CA$300/yr"], url="winery.infosofttech.ca"),
+   tag="Try it free for 90 days",
+   head="Your winery.<br>One suite.<br>90 days free.",
+   items=["All-in-one platform","Made for wineries","Then CA$30/month","or CA$300/year"], url="winery.infosofttech.ca"),
 }
 
 HTML = """<html><head><style>%(css)s</style></head><body>
