@@ -6,13 +6,12 @@ Albert signs up (accounts and verification are his). Items marked "verify" must 
 ## All brands
 | Where | What to do |
 |---|---|
-| Google Business Profile | One profile for Infosoft Technology (Canada), website link to each product page |
+| Google Business Profile | DONE: InfoSoft Technology Inc. (Kelowna) verified; add the 5 products with links |
 | Bing Places | Same as Google |
 | LinkedIn company page | Infosoft Technology, list all products with links |
 | Crunchbase | Company profile with product links |
 | Product Hunt | Launch each product separately (one per week) |
-| Capterra / GetApp / Software Advice | One free vendor listing (same portal) for each product |
-| G2 | Free product listing for each product |
+| G2 (also shows on Capterra, GetApp, Software Advice) | DONE 2026-11-25: all 5 products submitted via g2.com/add_product_requests/new, waiting for approval |
 | SaaSHub, AlternativeTo | Free product listings |
 | Instagram bio (@infosoftechnology) | Link-in-bio page with all 5 sites |
 
