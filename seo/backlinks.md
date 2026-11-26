@@ -6,8 +6,8 @@ Albert signs up (accounts and verification are his). Items marked "verify" must 
 ## All brands
 | Where | What to do |
 |---|---|
-| Google Business Profile | DONE: InfoSoft Technology Inc. (Kelowna) verified; add the 5 products with links |
-| Bing Places | Same as Google |
+| Google Business Profile | DONE: InfoSoft Technology Inc. (Kelowna) verified, 5 products added |
+| Bing Places | DONE 2026-11-25: imported from Google, weekly sync, pending publish |
 | LinkedIn company page | Infosoft Technology, list all products with links |
 | Crunchbase | Company profile with product links |
 | Product Hunt | Launch each product separately (one per week) |
