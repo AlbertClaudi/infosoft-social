@@ -108,120 +108,137 @@ ILLUS = {
 </svg>""",
 
 "vetario": """<svg viewBox="0 0 620 620" xmlns="http://www.w3.org/2000/svg">
-<!-- clipboard / patient record -->
-<g transform="translate(330,70) rotate(6)">
- <rect width="230" height="300" rx="20" fill="#F4F8F7"/>
- <rect x="70" y="-18" width="90" height="40" rx="10" fill="#3DD6B5"/>
- <circle cx="60" cy="80" r="26" fill="#3DD6B5" opacity=".35"/>
- <g fill="#B8C7C4"><rect x="100" y="66" width="100" height="12" rx="6"/><rect x="100" y="88" width="70" height="10" rx="5"/>
- <rect x="30" y="140" width="170" height="12" rx="6"/><rect x="30" y="170" width="170" height="12" rx="6"/><rect x="30" y="200" width="120" height="12" rx="6"/></g>
- <path d="M30 255 L70 255 L85 230 L105 275 L120 245 L200 245" stroke="#E2445C" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- appointment calendar -->
+<g transform="translate(370,40) rotate(-5)">
+ <rect width="220" height="210" rx="20" fill="#F4F8F7"/>
+ <rect width="220" height="54" rx="20" fill="#3DD6B5"/><rect y="34" width="220" height="20" fill="#3DD6B5"/>
+ <rect x="44" y="-16" width="14" height="36" rx="7" fill="#0E2A2F"/><rect x="162" y="-16" width="14" height="36" rx="7" fill="#0E2A2F"/>
+ <g fill="#B8C7C4"><rect x="24" y="76" width="34" height="30" rx="6"/><rect x="70" y="76" width="34" height="30" rx="6"/><rect x="116" y="76" width="34" height="30" rx="6"/><rect x="162" y="76" width="34" height="30" rx="6"/>
+ <rect x="24" y="118" width="34" height="30" rx="6"/><rect x="116" y="118" width="34" height="30" rx="6"/><rect x="162" y="118" width="34" height="30" rx="6"/>
+ <rect x="24" y="160" width="34" height="30" rx="6"/><rect x="70" y="160" width="34" height="30" rx="6"/><rect x="116" y="160" width="34" height="30" rx="6"/></g>
+ <rect x="70" y="118" width="34" height="30" rx="6" fill="#E2445C"/>
+ <path d="M77 133 l8 8 l13 -15" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<!-- cat -->
-<g transform="translate(70,200)">
- <path d="M40 150 L20 20 L120 95 Z" fill="#6B6F7A"/><path d="M300 150 L320 20 L220 95 Z" fill="#6B6F7A"/>
- <path d="M50 120 L38 50 L100 98 Z" fill="#F2A9B6"/><path d="M290 120 L302 50 L240 98 Z" fill="#F2A9B6"/>
- <ellipse cx="170" cy="210" rx="160" ry="140" fill="#8A8F9A"/>
- <ellipse cx="170" cy="270" rx="80" ry="58" fill="#D9DCE1"/>
- <ellipse cx="115" cy="190" rx="20" ry="26" fill="#C9E86B"/><ellipse cx="225" cy="190" rx="20" ry="26" fill="#C9E86B"/>
- <ellipse cx="115" cy="192" rx="7" ry="20" fill="#1B1B1B"/><ellipse cx="225" cy="192" rx="7" ry="20" fill="#1B1B1B"/>
- <path d="M158 242 L182 242 L170 256 Z" fill="#E86F7E"/>
- <path d="M170 256 v12 M170 268 q-18 16 -34 2 M170 268 q18 16 34 2" stroke="#1B1B1B" stroke-width="5" fill="none" stroke-linecap="round"/>
- <g stroke="#F4F8F7" stroke-width="4" stroke-linecap="round"><line x1="60" y1="250" x2="0" y2="240"/><line x1="60" y1="265" x2="5" y2="275"/><line x1="280" y1="250" x2="340" y2="240"/><line x1="280" y1="265" x2="335" y2="275"/></g>
+<!-- dog -->
+<g transform="translate(60,210)">
+ <path d="M70 60 C20 60 0 150 20 230 C40 260 80 240 90 200 Z" fill="#8A5A36"/>
+ <path d="M290 60 C340 60 360 150 340 230 C320 260 280 240 270 200 Z" fill="#8A5A36"/>
+ <ellipse cx="180" cy="160" rx="125" ry="130" fill="#C98B5A"/>
+ <ellipse cx="180" cy="235" rx="78" ry="62" fill="#F1D2B0"/>
+ <ellipse cx="130" cy="140" rx="17" ry="20" fill="#1B1B1B"/><ellipse cx="230" cy="140" rx="17" ry="20" fill="#1B1B1B"/>
+ <circle cx="136" cy="133" r="6" fill="#fff"/><circle cx="236" cy="133" r="6" fill="#fff"/>
+ <ellipse cx="180" cy="205" rx="30" ry="22" fill="#1B1B1B"/>
+ <path d="M180 227 v16 M180 243 q-22 18 -40 2 M180 243 q22 18 40 2" stroke="#1B1B1B" stroke-width="5" fill="none" stroke-linecap="round"/>
+ <path d="M166 258 q14 40 28 0 Z" fill="#E86F7E"/>
+</g>
+<!-- stethoscope -->
+<g fill="none" stroke="#3DD6B5" stroke-width="12" stroke-linecap="round">
+ <path d="M400 330 C400 430 430 480 490 480 C550 480 570 430 570 380"/>
+ <path d="M400 330 v-30 M570 380 v-80"/>
+</g>
+<circle cx="400" cy="292" r="12" fill="#B8C7C4"/><circle cx="570" cy="292" r="12" fill="#B8C7C4"/>
+<g transform="translate(490,480)"><path d="M0 0 v50" stroke="#3DD6B5" stroke-width="12" stroke-linecap="round"/><circle cx="0" cy="78" r="34" fill="#B8C7C4"/><circle cx="0" cy="78" r="20" fill="#F4F8F7"/></g>
+<!-- vet cross badge -->
+<g transform="translate(40,50)">
+ <circle cx="50" cy="50" r="50" fill="#E2445C"/>
+ <rect x="40" y="20" width="20" height="60" rx="5" fill="#fff"/><rect x="20" y="40" width="60" height="20" rx="5" fill="#fff"/>
 </g>
 <!-- paw prints -->
-<g fill="#3DD6B5" opacity=".8">
- <g transform="translate(420,470)"><ellipse cx="30" cy="40" rx="24" ry="20"/><circle cx="8" cy="12" r="9"/><circle cx="24" cy="2" r="9"/><circle cx="40" cy="2" r="9"/><circle cx="54" cy="14" r="9"/></g>
- <g transform="translate(500,545) scale(.75)"><ellipse cx="30" cy="40" rx="24" ry="20"/><circle cx="8" cy="12" r="9"/><circle cx="24" cy="2" r="9"/><circle cx="40" cy="2" r="9"/><circle cx="54" cy="14" r="9"/></g>
-</g>
-<!-- vet cross badge -->
-<g transform="translate(40,60)">
- <circle cx="55" cy="55" r="55" fill="#E2445C"/>
- <rect x="44" y="22" width="22" height="66" rx="5" fill="#fff"/><rect x="22" y="44" width="66" height="22" rx="5" fill="#fff"/>
+<g fill="#3DD6B5" opacity=".75">
+ <g transform="translate(200,70) rotate(20)"><ellipse cx="30" cy="40" rx="24" ry="20"/><circle cx="8" cy="12" r="9"/><circle cx="24" cy="2" r="9"/><circle cx="40" cy="2" r="9"/><circle cx="54" cy="14" r="9"/></g>
+ <g transform="translate(290,20) rotate(30) scale(.7)"><ellipse cx="30" cy="40" rx="24" ry="20"/><circle cx="8" cy="12" r="9"/><circle cx="24" cy="2" r="9"/><circle cx="40" cy="2" r="9"/><circle cx="54" cy="14" r="9"/></g>
 </g>
 </svg>""",
 
 "invall": """<svg viewBox="0 0 620 620" xmlns="http://www.w3.org/2000/svg">
-<!-- bank building -->
-<g transform="translate(300,60)">
- <path d="M0 90 L140 10 L280 90 Z" fill="#14213D"/>
- <rect x="10" y="90" width="260" height="22" fill="#14213D"/>
- <g fill="#E5DED0"><rect x="30" y="120" width="34" height="150"/><rect x="92" y="120" width="34" height="150"/><rect x="154" y="120" width="34" height="150"/><rect x="216" y="120" width="34" height="150"/></g>
- <rect x="0" y="270" width="280" height="26" rx="4" fill="#14213D"/>
- <circle cx="140" cy="58" r="16" fill="#FCA311"/>
+<!-- growing bar chart -->
+<g transform="translate(340,50)">
+ <rect width="250" height="230" rx="22" fill="#FFFFFF"/>
+ <g fill="#2A6FDB"><rect x="30" y="150" width="34" height="50" rx="6"/><rect x="80" y="120" width="34" height="80" rx="6"/><rect x="130" y="90" width="34" height="110" rx="6"/></g>
+ <rect x="180" y="50" width="34" height="150" rx="6" fill="#FCA311"/>
+ <path d="M40 120 L95 90 L145 62 L200 28" stroke="#2BB673" stroke-width="7" fill="none" stroke-linecap="round"/>
+ <path d="M186 22 L206 24 L200 44" stroke="#2BB673" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<!-- payment card -->
-<g transform="translate(60,250) rotate(-8)">
- <rect width="330" height="200" rx="24" fill="#2A6FDB"/>
- <rect x="0" y="40" width="330" height="40" fill="#14213D"/>
- <rect x="30" y="110" width="56" height="42" rx="8" fill="#FCA311"/>
- <g fill="#fff" opacity=".85"><rect x="110" y="120" width="60" height="12" rx="6"/><rect x="180" y="120" width="60" height="12" rx="6"/><rect x="30" y="168" width="140" height="10" rx="5"/></g>
+<!-- stock boxes -->
+<g transform="translate(40,330)">
+ <g><rect x="0" y="120" width="160" height="140" rx="8" fill="#D9A066"/><rect x="66" y="120" width="28" height="140" fill="#C48A52"/></g>
+ <g><rect x="170" y="120" width="160" height="140" rx="8" fill="#E0AC75"/><rect x="236" y="120" width="28" height="140" fill="#C48A52"/></g>
+ <g><rect x="85" y="-10" width="160" height="130" rx="8" fill="#E0AC75"/><rect x="151" y="-10" width="28" height="130" fill="#C48A52"/></g>
+ <g fill="#14213D" opacity=".7"><rect x="14" y="230" width="40" height="8" rx="4"/><rect x="184" y="230" width="40" height="8" rx="4"/><rect x="99" y="92" width="40" height="8" rx="4"/></g>
 </g>
-<!-- coin stack -->
-<g transform="translate(400,400)">
- <g fill="#F0A800"><ellipse cx="80" cy="170" rx="80" ry="22"/><rect x="0" y="40" width="160" height="130"/></g>
- <g fill="#FCA311"><ellipse cx="80" cy="40" rx="80" ry="22"/></g>
- <g stroke="#14213D" stroke-width="3" opacity=".35"><line x1="0" y1="80" x2="160" y2="80"/><line x1="0" y1="120" x2="160" y2="120"/></g>
- <text x="80" y="53" text-anchor="middle" font-family="Inter" font-weight="800" font-size="34" fill="#14213D">€</text>
+<!-- project / offer sheet with signature -->
+<g transform="translate(60,40) rotate(-6)">
+ <rect width="220" height="270" rx="16" fill="#FFFFFF"/>
+ <rect x="24" y="26" width="90" height="16" rx="8" fill="#14213D"/>
+ <g fill="#D8D2C4"><rect x="24" y="64" width="170" height="10" rx="5"/><rect x="24" y="86" width="150" height="10" rx="5"/><rect x="24" y="108" width="170" height="10" rx="5"/><rect x="24" y="130" width="110" height="10" rx="5"/></g>
+ <path d="M30 210 c20 -40 35 20 55 -10 s25 -30 40 5 s30 -10 60 -15" stroke="#2A6FDB" stroke-width="5" fill="none" stroke-linecap="round"/>
+ <rect x="24" y="226" width="170" height="4" rx="2" fill="#14213D" opacity=".4"/>
 </g>
-<!-- pie chart -->
-<g transform="translate(130,500)">
- <circle cx="0" cy="0" r="85" fill="#14213D"/>
- <path d="M0 0 L0 -85 A85 85 0 0 1 80 28 Z" fill="#FCA311"/>
- <path d="M0 0 L80 28 A85 85 0 0 1 -30 80 Z" fill="#2BB673"/>
- <circle cx="0" cy="0" r="34" fill="#F5F3EE"/>
+<!-- coins -->
+<g transform="translate(450,440)">
+ <g fill="#F0A800"><ellipse cx="70" cy="120" rx="70" ry="20"/><rect x="0" y="30" width="140" height="90"/></g>
+ <ellipse cx="70" cy="30" rx="70" ry="20" fill="#FCA311"/>
+ <g stroke="#14213D" stroke-width="3" opacity=".3"><line x1="0" y1="60" x2="140" y2="60"/><line x1="0" y1="90" x2="140" y2="90"/></g>
+ <text x="70" y="42" text-anchor="middle" font-family="Inter" font-weight="800" font-size="30" fill="#14213D">€</text>
 </g>
 </svg>""",
 
 "ontexi": """<svg viewBox="0 0 620 620" xmlns="http://www.w3.org/2000/svg">
-<!-- brick wall -->
+<!-- tower crane -->
+<g>
+ <rect x="80" y="70" width="34" height="420" fill="#FFC233"/>
+ <g stroke="#1F2933" stroke-width="5" opacity=".55">
+  <line x1="80" y1="110" x2="114" y2="150"/><line x1="114" y1="150" x2="80" y2="190"/><line x1="80" y1="190" x2="114" y2="230"/><line x1="114" y1="230" x2="80" y2="270"/><line x1="80" y1="270" x2="114" y2="310"/><line x1="114" y1="310" x2="80" y2="350"/><line x1="80" y1="350" x2="114" y2="390"/><line x1="114" y1="390" x2="80" y2="430"/><line x1="80" y1="430" x2="114" y2="470"/>
+ </g>
+ <rect x="20" y="56" width="440" height="24" rx="4" fill="#FFC233"/>
+ <rect x="20" y="80" width="50" height="40" rx="4" fill="#9AA3AD"/>
+ <rect x="96" y="30" width="6" height="30" fill="#FFC233"/>
+ <path d="M99 30 L20 60 M99 30 L440 60" stroke="#FFC233" stroke-width="4"/>
+ <line x1="370" y1="80" x2="370" y2="200" stroke="#9AA3AD" stroke-width="4"/>
+ <path d="M362 200 h16 v10 q0 18 -12 18" stroke="#9AA3AD" stroke-width="5" fill="none"/>
+ <rect x="310" y="226" width="120" height="30" rx="4" fill="#C8553D"/>
+</g>
+<!-- clock -->
+<g transform="translate(330,280)">
+ <circle cx="110" cy="110" r="110" fill="#F7F7F2"/>
+ <circle cx="110" cy="110" r="92" fill="none" stroke="#FFC233" stroke-width="10"/>
+ <g fill="#1F2933"><rect x="105" y="30" width="10" height="20" rx="3"/><rect x="105" y="170" width="10" height="20" rx="3"/><rect x="30" y="105" width="20" height="10" rx="3"/><rect x="170" y="105" width="20" height="10" rx="3"/></g>
+ <line x1="110" y1="110" x2="150" y2="86" stroke="#1F2933" stroke-width="10" stroke-linecap="round"/>
+ <line x1="110" y1="110" x2="160" y2="140" stroke="#E2445C" stroke-width="7" stroke-linecap="round"/>
+ <circle cx="110" cy="110" r="11" fill="#1F2933"/>
+</g>
+<!-- bricks -->
 <g fill="#C8553D">
- <rect x="20" y="470" width="120" height="44" rx="4"/><rect x="146" y="470" width="120" height="44" rx="4"/><rect x="272" y="470" width="120" height="44" rx="4"/><rect x="398" y="470" width="120" height="44" rx="4"/>
- <rect x="-40" y="520" width="120" height="44" rx="4"/><rect x="86" y="520" width="120" height="44" rx="4"/><rect x="212" y="520" width="120" height="44" rx="4"/><rect x="338" y="520" width="120" height="44" rx="4"/><rect x="464" y="520" width="120" height="44" rx="4"/>
- <rect x="20" y="570" width="120" height="44" rx="4"/><rect x="146" y="570" width="120" height="44" rx="4"/><rect x="272" y="570" width="120" height="44" rx="4"/><rect x="398" y="570" width="120" height="44" rx="4"/>
+ <rect x="0" y="520" width="110" height="42" rx="4"/><rect x="116" y="520" width="110" height="42" rx="4"/><rect x="232" y="520" width="110" height="42" rx="4"/>
+ <rect x="58" y="568" width="110" height="42" rx="4"/><rect x="174" y="568" width="110" height="42" rx="4"/><rect x="290" y="568" width="110" height="42" rx="4"/>
 </g>
-<!-- big clock -->
-<g transform="translate(180,40)">
- <circle cx="130" cy="130" r="130" fill="#F7F7F2"/>
- <circle cx="130" cy="130" r="110" fill="none" stroke="#FFC233" stroke-width="10"/>
- <g fill="#1F2933"><rect x="125" y="34" width="10" height="22" rx="3"/><rect x="125" y="204" width="10" height="22" rx="3"/><rect x="34" y="125" width="22" height="10" rx="3"/><rect x="204" y="125" width="22" height="10" rx="3"/></g>
- <line x1="130" y1="130" x2="130" y2="66" stroke="#1F2933" stroke-width="10" stroke-linecap="round"/>
- <line x1="130" y1="130" x2="180" y2="155" stroke="#E2445C" stroke-width="7" stroke-linecap="round"/>
- <circle cx="130" cy="130" r="12" fill="#1F2933"/>
-</g>
-<!-- hard hat on wall -->
-<g transform="translate(320,330) scale(.8)">
+<!-- hard hat -->
+<g transform="translate(140,400) scale(.62)">
  <path d="M30 120 C30 40 90 0 160 0 C230 0 290 40 290 120 Z" fill="#FFC233"/>
  <rect x="0" y="115" width="330" height="34" rx="17" fill="#F0A800"/>
  <rect x="140" y="-6" width="40" height="126" rx="12" fill="#F0A800"/>
 </g>
-<!-- hammer -->
-<g transform="translate(70,300) rotate(-30 80 80)">
- <rect x="70" y="40" width="22" height="150" rx="8" fill="#8D5B3A"/>
- <path d="M30 20 L130 20 L130 56 L30 56 Q10 38 30 20Z" fill="#9AA3AD"/>
-</g>
-<!-- traffic cone -->
-<g transform="translate(40,330)">
- <path d="M55 0 L85 0 L120 130 L20 130 Z" fill="#FF7A1A"/>
- <path d="M44 42 L96 42 L104 72 L36 72 Z" fill="#F7F7F2"/>
- <rect x="0" y="126" width="140" height="16" rx="5" fill="#E2611A"/>
+<!-- wrench -->
+<g transform="translate(470,520) rotate(-35)">
+ <rect x="0" y="-10" width="130" height="20" rx="10" fill="#9AA3AD"/>
+ <circle cx="0" cy="0" r="26" fill="#9AA3AD"/><rect x="-30" y="-8" width="30" height="16" fill="#1F2933"/>
 </g>
 </svg>""",
 }
 
 POSTS = {
  "vetario": dict(bg="#0E2A2F",fg="#F4F8F7",accent="#3DD6B5",tagfg="#0E2A2F",name="Vetario",
-   tag="Kosovë & Shqipëri",
-   head="Çdo pacient.<br>Çdo vizitë.<br>Në një vend.", h1size="66px",
-   items=["Historiku mjekësor","Klientët & kafshët","Terminet","Fatura & raporte"], url="vetario.ca"),
+   tag="Për klinikat veterinare",
+   head="Nga termini<br>te fatura,<br>pa letra.", h1size="66px",
+   items=["Terminet e klinikës","Kartela e pacientit","Faturimi","Raportet"], url="vetario.ca"),
  "invall": dict(bg="#F5F3EE",fg="#14213D",accent="#FCA311",tagfg="#14213D",name="Invall",
    tag="14 ditë provë FALAS",
-   head="Pagesat,<br>banka & pagat<br>nën kontroll.",
-   items=["Pagesa online","Banka & shpenzimet","Pagat & TVSH","Portali i klientit"], url="invall.ca"),
+   head="Stoku.<br>Projektet.<br>Raportet.",
+   items=["Menaxhimi i stokut","Projekte & oferta","Shpenzimet","Raportet e biznesit"], url="invall.ca"),
  "ontexi": dict(bg="#1F2933",fg="#F7F7F2",accent="#FFC233",tagfg="#1F2933",name="Ontexi",
-   tag="For Canadian construction",
-   head="Clock in.<br>Clock out.<br>Get building.",
-   items=["Employee time tracking","Clock in / clock out","All-in-one management"], url="canada.infosofttech.ca"),
+   tag="Built for Canadian contractors",
+   head="Every hour<br>on the job,<br>tracked.",
+   items=["Crew clock in / out","Employee time tracking","All-in-one management"], url="canada.infosofttech.ca"),
  "tapline": dict(bg="#1B1410",fg="#FBF3E4",accent="#F2A541",tagfg="#1B1410",name="TapLine",
    tag="CA$29/mo · CA$290/yr",
    head="Pour more.<br>Juggle less.<br>One platform.",
