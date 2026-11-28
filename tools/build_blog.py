@@ -20,6 +20,9 @@ BRANDS = {
  "winery": dict(host="blog.winery.infosofttech.ca", name="Winery Suite", site="https://winery.infosofttech.ca", lang="en",
                 bg="#3A0F1E", fg="#FBF1F3", accent="#E8B4C0", blog="Winery Suite Blog",
                 tagline="Ideas for running a modern winery", cta="Start your 90-day free trial", more="Read more"),
+ "elirin": dict(host="blog.elirin.ca", name="Elirin", site="https://elirin.ca", lang="en",
+                bg="#14122B", fg="#F5F3FF", accent="#A78BFA", blog="Elirin Blog",
+                tagline="Practical social media marketing for small businesses", cta="Visit elirin.ca", more="Read more"),
 }
 
 CSS = """*{box-sizing:border-box;margin:0;padding:0}

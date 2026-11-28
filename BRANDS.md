@@ -50,6 +50,14 @@ Each brand therefore posts every 2 days.
 - 90-day free trial, then CA$30/month or CA$300/year
 - Site: winery.infosofttech.ca
 
+### Elirin – English – BLOG ONLY (not part of the Instagram rotation; never make Instagram posts for Elirin)
+- AI marketing platform for businesses (an AI Marketing Agent that helps plan, create, review and publish social media marketing)
+- Works with Facebook and Instagram
+- Areas in the app: AI Marketing Agent, Campaigns, Creative Studio, Social Calendar, Approval Center, Analytics/Results, Brand Brain (the business's brand voice and details), Industry Brain, Client Workspaces, Credits, AI Spend Guard
+- Workflow: Business → Campaign → Content → Review → Publication → Results
+- Site: elirin.ca
+- No prices, no free-trial claims, and do not claim TikTok, LinkedIn, X or video-editor support (not launched yet)
+
 ## Images
 - 1080×1080 PNG, rendered from HTML with Playwright + /usr/bin/google-chrome. Use tools/gen_illustrated.py as the base: text on the left, a large drawn SVG illustration of the brand's world on the right
 - Every image MUST show the platform's world: TapLine = beer glasses, kegs, hops, delivery; Winery Suite = wine bottle, glass, grapes, barrels, vineyard; Vetario = pets (dogs, cats), stethoscope, vet cross; Invall = invoices, signature, charts, coins; Ontexi = hard hat, crane, clock (clock in/out), bricks, tools. Vary the scene each time (new objects/arrangement), keep brand colours
